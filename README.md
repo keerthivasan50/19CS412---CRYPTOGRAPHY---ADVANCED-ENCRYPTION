@@ -214,7 +214,7 @@ print("decrypted string: ", decMessage)
 ```
 ## OUTPUT:
 
-<img width="756" alt="image" src="https://github.com/AlluguriSrikrishnateja/19CS412---CRYPTOGRAPHY---ADVANCED-ENCRYPTION/assets/118343892/23e74c08-7cea-4381-b9fe-97e247b17470">
+![Screenshot 2024-03-16 093406](https://github.com/keerthivasan50/19CS412---CRYPTOGRAPHY---ADVANCED-ENCRYPTION/assets/150429883/7ca20202-aee3-4970-ba5e-745637c9c5cd)
 
 ## RESULT:
 
