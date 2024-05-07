@@ -21,6 +21,7 @@ STEP-7: Decryption is done as cipherdmod n.
 
 ## PROGRAM:
 ```
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -82,27 +83,36 @@ int decryptedMessage = decrypt(ciphertext, d, n);
 printf("Decrypted message: %d\n", decryptedMessage);
 return 0;
 }
+
 ```
 ## OUTPUT:
-![rsa](https://github.com/Aashika77/19CS412---CRYPTOGRAPHY---ADVANCED-ENCRYPTION/assets/119291088/2d3aeadc-ba89-4325-aca2-9ad11773d8f9)
+
+![a1](https://github.com/Samuelmariappan/19CS412---CRYPTOGRAPHY---ADVANCED-ENCRYPTION/assets/119393030/bd65e5da-b0d8-4b20-9115-1c66f571315c)
+
 
 
 ## RESULT :
 
 Thus the C program to implement RSA encryption technique had been
-implemented successfully
+implemented successfully.
+
 
 ## IMPLEMENTATION OF AES
+
 ## AIM:
+
 To use Advanced Encryption Standard (AES) Algorithm for a practical
 application like URL Encryption.
 ## ALGORITHM:
+
 1. AES is based on a design principle known as a substitution–permutation.
 2. AES does not use a Feistel network like DES, it uses variant of Rijndael.
 3. It has a fixed block size of 128 bits, and a key size of 128, 192, or 256 bits.
 4. AES operates on a 4 × 4 column-major order array of bytes, termed the state
 ## PROGRAM:
+
 ## AES.java
+```
 import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
@@ -161,16 +171,15 @@ Base64.getEncoder().encodeToString(cipher.doFinal(strToEncrypt.getBytes("UTF-8")
  System.out.println("Decrypted URL : " + decryptedString);
  }
 }
-   ## OUTPUT:
-URL Encryption Using AES Algorithm
--------------------------------------------------
-Original URL : www.annauniv.edu
-Encrypted URL : vibpFJW6Cvs5Y+L7t4N6YWWe07+JzS1d3CU2h3mEvEg=
-Decrypted URL : www.annauniv.edu
+```
+## OUTPUT:
+
+![image](https://github.com/Samuelmariappan/19CS412---CRYPTOGRAPHY---ADVANCED-ENCRYPTION/assets/119393030/73019243-aa80-4cc6-a4da-2c154127ec8a)
+
 
 ## RESULT:
 
-
+Thus the Implementation of AES had been implemented successfully.
 
 ## IMPLEMENTATION OF DIFFIE HELLMAN KEY EXCHANGE ALGORITHM
 
@@ -239,10 +248,11 @@ printf("Secret key for the Alice is : %lld\n", ka);
 printf("Secret Key for the Bob is : %lld\n", kb);
 return 0;
 }
+
 ```
 ## OUTPUT:
-![diff](https://github.com/Aashika77/19CS412---CRYPTOGRAPHY---ADVANCED-ENCRYPTION/assets/119291088/ed3b835f-afdb-4f68-a2f9-9a99d3d9272f)
 
+![a2](https://github.com/Samuelmariappan/19CS412---CRYPTOGRAPHY---ADVANCED-ENCRYPTION/assets/119393030/7cce7c2d-53d8-4d99-90f5-f4f0547f3ad8)
 
 
 
@@ -278,6 +288,7 @@ same process for the remaining plain text characters.
 
 ```
 from cryptography.fernet import Fernet
+print("Enter the string: ")
 message = input()
 key = Fernet.generate_key()
 fernet = Fernet(key)
@@ -288,10 +299,11 @@ print("encrypted string: ", encMessage)
 decMessage = fernet.decrypt(encMessage).decode()
  
 print("decrypted string: ", decMessage)
+
 ```
 ## OUTPUT:
-![DES](https://github.com/Aashika77/19CS412---CRYPTOGRAPHY---ADVANCED-ENCRYPTION/assets/119291088/d2108073-4ab7-4b19-934c-7a2d49e7e4ec)
 
+![image](https://github.com/kaushik2022/19CS412---CRYPTOGRAPHY---ADVANCED-ENCRYPTION/assets/129837020/0128dccb-852c-408e-b2d0-1483688644b3)
 
 
 ## RESULT:
