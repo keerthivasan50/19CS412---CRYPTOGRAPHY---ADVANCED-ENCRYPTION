@@ -84,7 +84,7 @@ return 0;
 }
 ```
 ## OUTPUT:
-![Screenshot 2024-03-05 113517](https://github.com/AlluguriSrikrishnateja/19CS412---CRYPTOGRAPHY---ADVANCED-ENCRYPTION/assets/118343892/b96f8704-db74-4fb0-835d-078d58644625)
+![rsa](https://github.com/Aashika77/19CS412---CRYPTOGRAPHY---ADVANCED-ENCRYPTION/assets/119291088/2d3aeadc-ba89-4325-aca2-9ad11773d8f9)
 
 
 ## RESULT :
@@ -241,8 +241,9 @@ return 0;
 }
 ```
 ## OUTPUT:
+![diff](https://github.com/Aashika77/19CS412---CRYPTOGRAPHY---ADVANCED-ENCRYPTION/assets/119291088/ed3b835f-afdb-4f68-a2f9-9a99d3d9272f)
 
-<img width="342" alt="image" src="https://github.com/AlluguriSrikrishnateja/19CS412---CRYPTOGRAPHY---ADVANCED-ENCRYPTION/assets/118343892/a3f5b0fa-ef81-4215-9521-2a16c87cef68">
+
 
 
 ## RESULT: 
@@ -289,8 +290,9 @@ decMessage = fernet.decrypt(encMessage).decode()
 print("decrypted string: ", decMessage)
 ```
 ## OUTPUT:
+![DES](https://github.com/Aashika77/19CS412---CRYPTOGRAPHY---ADVANCED-ENCRYPTION/assets/119291088/d2108073-4ab7-4b19-934c-7a2d49e7e4ec)
 
-<img width="756" alt="image" src="https://github.com/AlluguriSrikrishnateja/19CS412---CRYPTOGRAPHY---ADVANCED-ENCRYPTION/assets/118343892/23e74c08-7cea-4381-b9fe-97e247b17470">
+
 
 ## RESULT:
 
